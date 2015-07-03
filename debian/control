@@ -1,0 +1,25 @@
+Source: node-sdp-transform
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Daniel Pocock <daniel@pocock.pro>
+Build-Depends: debhelper (>= 9.0.0), node-uglify
+Standards-Version: 3.9.5
+Homepage: https://github.com/clux/sdp-transform
+Vcs-Browser: https://github.com/dpocock/sdp-transform
+Vcs-Git: https://github.com/dpocock/sdp-transform
+
+Package: libjs-sdp-transform
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: javascript-common
+Description: JavaScript parser/writer for Session Description Protocol
+ A simple utility for parsing and writing strings using the
+ Session Description Protocol (SDP), commonly used for VoIP and WebRTC.
+
+Package: node-sdp-transform
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 0.6.19~dfsg1-3), libjs-sdp-transform
+Description: JavaScript parser/writer for Session Description Protocol
+ A simple utility for parsing and writing strings using the
+ Session Description Protocol (SDP), commonly used for VoIP and WebRTC.

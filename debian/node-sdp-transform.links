@@ -1,0 +1,4 @@
+usr/share/javascript/sdp-transform/grammar.js usr/lib/nodejs/sdp-transform/lib/grammar.js
+usr/share/javascript/sdp-transform/index.js usr/lib/nodejs/sdp-transform/lib/index.js
+usr/share/javascript/sdp-transform/parser.js usr/lib/nodejs/sdp-transform/lib/parser.js
+usr/share/javascript/sdp-transform/writer.js usr/lib/nodejs/sdp-transform/lib/writer.js
